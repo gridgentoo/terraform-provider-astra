@@ -47,8 +47,11 @@ func dataSourceDatabase() *schema.Resource {
 			},
 			"region": {
 				Description: "Cloud provider region. Get list of supported regions from regions data-source",
-				Type:        schema.TypeString,
+				Type:        schema.TypeList,
 				Computed:    true,
+				Elem: &schema.Schema{
+					Type: schema.TypeString,
+				},
 			},
 			"status": {
 				Description: "Database status",
