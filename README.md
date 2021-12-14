@@ -1,3 +1,7 @@
+Оригинальный репозиторий.  
+https://github.com/datastax/terraform-provider-astra
+
+
 # Terraform Provider for Astra
 
 [Astra](https://astra.datastax.com/register) is DataStax's Serverless Apache Cassandra as a service platform.
